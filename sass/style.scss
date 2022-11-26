@@ -98,11 +98,6 @@
     justify-content: center;
 
 }
-
-.bit{
-    text-align: center;
-    font-size: 50px;
-}
 .web{
     font-family: 'Share Tech Mono', monospace;
     color: gray;
@@ -143,11 +138,7 @@
     background-image: linear-gradient(to right, rgb(5, 3, 3), rgb(32, 2, 2));
     height: 5vh;
 }
-.imagem-me{
-    border-radius: 400px;
-    width: 150px;
-    height: 150px; 
-}
+
 
 
 
@@ -245,14 +236,30 @@
         margin-top: 15px;
         margin-left: 8px;
     }
+    
+    .nav-link{
+        color: red;
+        font-size: 10px;
+        font-family: 'Share Tech Mono', monospace;
+    }
     .carousel-item{
-        width: 120px;  
+        width: 110px;  
     }
     .carousel{
         text-align: center;
-        width: 120px;
+        width: 110px;
         padding: 0;
         margin-left: 0px;
+    }
+    .text-about{
+        font-size: 15px;
+        justify-content: center;
+        color: gray;
+    }
+    .title-projects{
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 10px;
     }
     .logoPc{
         width: 150px;
@@ -263,13 +270,13 @@
     }
     .header{display: grid;}
     .nome{
-        font-size: 40px;
+        font-size: 20px;
     }
     .capa{
         display: grid;
         margin: 0px;
         padding: 0px;
-        gap: 50px;
+        gap: 15px;
         justify-content: center;
     }
 
@@ -280,14 +287,52 @@
     .sobre-mim{
         text-align: center;
     }
-    .servico{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
+
     .ul-me{
         padding: 0px;
         margin-right: 20px;
+    }
+    .emolj-me{
+        width: 150px;
+        height: 150px;
+    }
+    .img-me{
+        text-align: center;
+    }
+    .servico{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .web{
+        font-family: 'Share Tech Mono', monospace;
+        color: gray;
+    }
+    .sec{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .emolj-mostra{
+        width: 120px;
+    }
+    
+    .h1-contatos{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .rede-social{
+        display: grid;
+        justify-content: center;
+        color: aliceblue;
+        gap: 7px;
+       
+    }
+    .bi{
+        color: aliceblue;
+        font-size: 25px;
+        height: 25px;
+        width: 27px;
     }
 }
 @media (min-width : 1440px){
