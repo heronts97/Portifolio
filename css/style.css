@@ -189,7 +189,8 @@
     margin-left: 10px;
   }
   .carousel-item {
-    width: 180px;
+    display: grid;
+    width: 150px;
     justify-content: center;
   }
   .carousel {
@@ -197,6 +198,7 @@
     width: 150px;
     display: grid;
     justify-content: center;
+    margin-left: 0px;
   }
   .h1-contatos {
     text-align: center;
@@ -230,8 +232,8 @@
     justify-content: center;
   }
   .emolj-me {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
   .emolj-mostra {
     padding-top: 50px;
@@ -263,6 +265,7 @@
     text-align: center;
     width: 150px;
     padding: 0;
+    margin-left: 0px;
   }
   .logoPc {
     width: 150px;
