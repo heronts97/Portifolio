@@ -1,0 +1,309 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-main {
+  background-color: black;
+  color: white;
+  background-image: linear-gradient(to right, rgb(3, 5, 3), rgb(32, 2, 2));
+  height: 100vh;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-item {
+  justify-content: center;
+}
+
+.nav-link {
+  color: red;
+  font-size: 26px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.nav-link:hover {
+  opacity: 30%;
+  color: red;
+}
+
+.capa {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 250px;
+  justify-content: center;
+}
+
+.text-descript {
+  margin-top: 200px;
+  margin-left: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome {
+  color: rgb(214, 6, 6);
+  font-family: "Share Tech Mono", monospace;
+}
+
+.btn-me {
+  background-color: rgb(206, 12, 12);
+  border-radius: 10px;
+  width: 100px;
+  color: white;
+}
+
+.btn-me:hover {
+  opacity: 50%;
+}
+
+.emolj-me {
+  width: 500px;
+}
+
+.container-projects {
+  display: grid;
+  background-color: black;
+  color: white;
+  background-image: linear-gradient(to right, rgb(5, 3, 3), rgb(32, 2, 2));
+  height: 100vh;
+  justify-content: center;
+}
+
+.carousel {
+  display: grid;
+  height: 29vh;
+  width: 50vh;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.text-about {
+  font-size: 25px;
+  justify-content: center;
+  color: gray;
+}
+
+.title-projects {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.container-sobre-mim {
+  background-color: rgb(71, 25, 25);
+  color: white;
+  height: 45vh;
+}
+
+.emolj-mostra {
+  width: 300px;
+}
+
+.sobre-mim {
+  text-align: center;
+}
+
+.servico {
+  display: flex;
+  justify-content: center;
+}
+
+.bit {
+  text-align: center;
+  font-size: 50px;
+}
+
+.web {
+  font-family: "Share Tech Mono", monospace;
+  color: gray;
+}
+
+.sec {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-contatos {
+  background-color: black;
+  color: white;
+  background-image: linear-gradient(to right, rgb(5, 3, 3), rgb(32, 2, 2));
+  height: 50vh;
+}
+
+.h1-contatos {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.rede-social {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  gap: 60px;
+}
+
+.bi {
+  color: aliceblue;
+  font-size: 45px;
+}
+
+.bi:hover {
+  opacity: 30%;
+  color: red;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, rgb(5, 3, 3), rgb(32, 2, 2));
+  height: 5vh;
+}
+
+.imagem-me {
+  border-radius: 400px;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 770px) {
+  .emolj-me {
+    width: 500px;
+  }
+  .capa {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+  }
+  .text-descript {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .text-descript {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .carousel-item {
+    width: 180px;
+    justify-content: center;
+  }
+  .carousel {
+    text-align: center;
+    width: 150px;
+    display: grid;
+    justify-content: center;
+  }
+  .h1-contatos {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .rede-social {
+    display: grid;
+    justify-content: center;
+    color: aliceblue;
+    gap: 20px;
+  }
+  .bi {
+    color: aliceblue;
+    font-size: 25px;
+  }
+  .carousel-control-prev {
+    justify-content: center;
+    width: 25px;
+  }
+  .carousel-control-next {
+    width: 25px;
+  }
+  .capa {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    gap: 30px;
+  }
+  .emolj-me {
+    width: 400px;
+  }
+  .emolj-mostra {
+    padding-top: 50px;
+    width: 250px;
+  }
+  .sobre-mim {
+    text-align: center;
+  }
+  .servico {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .ul-me {
+    padding: 0px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .text-descript {
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+  .carousel-item {
+    width: 180px;
+    justify-content: center;
+  }
+  .carousel {
+    text-align: center;
+    width: 150px;
+    padding: 0;
+  }
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  .header {
+    display: grid;
+  }
+  .nome {
+    font-size: 40px;
+  }
+  .capa {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    gap: 100px;
+  }
+  .emolj-me {
+    width: 250px;
+  }
+  .emolj-mostra {
+    padding-top: 50px;
+    width: 150px;
+  }
+  .sobre-mim {
+    text-align: center;
+  }
+  .servico {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .ul-me {
+    padding: 0px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .carrocel-todos {
+    display: flex;
+    width: 1400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
