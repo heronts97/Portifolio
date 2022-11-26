@@ -174,9 +174,7 @@
         margin-left: 10px;
     }
     .carousel-item{
-        display: grid;
         width: 150px;
-        justify-content: center;
     }
     .carousel{
         text-align: center;
@@ -206,8 +204,10 @@
     .carousel-control-prev{
         justify-content: center;
         width: 25px;
+        
     }
     .carousel-control-next{
+        justify-content: center;
         width: 25px;
     }
     .capa{
@@ -247,11 +247,10 @@
     }
     .carousel-item{
         width: 180px;
-        justify-content: center;
     }
     .carousel{
         text-align: center;
-        width: 150px;
+        width: 120px;
         padding: 0;
         margin-left: 0px;
     }
