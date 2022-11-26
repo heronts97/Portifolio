@@ -192,10 +192,13 @@
         justify-content: center;
         color: aliceblue;
         gap: 20px;
+       
     }
     .bi{
         color: aliceblue;
         font-size: 25px;
+        height: 25px;
+        width: 30px;
     }
     .carousel-control-prev{
         justify-content: center;
@@ -208,11 +211,14 @@
         display:grid;
         margin: 0px;
         padding: 0px;
-        gap: 30px;
-        }
-        .emolj-me{
-            width: 400px;
+        gap: 10px;
+        justify-content: center;
     }
+    .emolj-me{
+        width: 150px;
+        height: 150px;
+    }
+        
 
     .emolj-mostra{
         padding-top: 50px;
@@ -261,11 +267,10 @@
         display: grid;
         margin: 0px;
         padding: 0px;
-        gap: 100px;
+        gap: 50px;
+        justify-content: center;
     }
-    .emolj-me{
-        width: 250px;
-    }
+
     .emolj-mostra{
         padding-top: 50px;
         width: 150px;
