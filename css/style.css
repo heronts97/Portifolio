@@ -159,7 +159,7 @@
 
 @media (max-width: 770px) {
   .emolj-me {
-    width: 500px;
+    width: 370px;
   }
   .capa {
     display: grid;
@@ -171,21 +171,59 @@
     margin-top: 20px;
     margin-left: 10px;
   }
+  .container-projects {
+    display: grid;
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to right, rgb(5, 3, 3), rgb(32, 2, 2));
+    height: 150vh;
+    justify-content: center;
+  }
+  .carousel {
+    text-align: center;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    margin-left: 0px;
+    height: 40vh;
+    padding-top: 20px;
+  }
+  .carousel-item {
+    width: 400px;
+  }
 }
 @media (max-width: 450px) {
   .text-descript {
     margin-top: 20px;
     margin-left: 10px;
   }
+  .container-projects {
+    display: grid;
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to right, rgb(5, 3, 3), rgb(32, 2, 2));
+    height: 150vh;
+    justify-content: center;
+  }
+  .nav-link {
+    color: red;
+    font-size: 15px;
+    font-family: "Share Tech Mono", monospace;
+  }
   .carousel-item {
-    width: 150px;
+    width: 400px;
+  }
+  .img-me {
+    text-align: center;
   }
   .carousel {
     text-align: center;
-    width: 150px;
+    width: 400px;
     display: grid;
     justify-content: center;
     margin-left: 0px;
+    height: 40vh;
+    padding-top: 20px;
   }
   .h1-contatos {
     text-align: center;
@@ -193,26 +231,25 @@
     padding-bottom: 40px;
   }
   .rede-social {
-    display: grid;
+    display: flex;
     justify-content: center;
     color: aliceblue;
     gap: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
   }
   .bi {
     color: aliceblue;
-    font-size: 25px;
-    height: 25px;
-    width: 30px;
+    height: 45px;
+    width: 50px;
   }
   .carousel-control-prev {
     justify-content: center;
     width: 25px;
-    display: none;
   }
   .carousel-control-next {
     justify-content: center;
     width: 25px;
-    display: none;
   }
   .capa {
     display: grid;
@@ -222,12 +259,12 @@
     justify-content: center;
   }
   .emolj-me {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
   }
   .emolj-mostra {
     padding-top: 50px;
-    width: 250px;
+    width: 200px;
   }
   .sobre-mim {
     text-align: center;
@@ -253,13 +290,14 @@
     font-family: "Share Tech Mono", monospace;
   }
   .carousel-item {
-    width: 110px;
+    width: 300px;
   }
   .carousel {
     text-align: center;
-    width: 110px;
+    width: 300px;
     padding: 0;
     margin-left: 0px;
+    height: 45vh;
   }
   .text-about {
     font-size: 15px;
@@ -303,8 +341,8 @@
     margin-right: 20px;
   }
   .emolj-me {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   .img-me {
     text-align: center;
@@ -328,18 +366,6 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-  }
-  .rede-social {
-    display: grid;
-    justify-content: center;
-    color: aliceblue;
-    gap: 7px;
-  }
-  .bi {
-    color: aliceblue;
-    font-size: 25px;
-    height: 25px;
-    width: 27px;
   }
 }
 @media (min-width: 1440px) {
