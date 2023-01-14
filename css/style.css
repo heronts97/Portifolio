@@ -193,6 +193,10 @@
   }
 }
 @media (max-width: 450px) {
+  .logoPc {
+    width: 290px;
+    margin-top: 15px;
+  }
   .text-descript {
     margin-top: 20px;
     margin-left: 10px;
@@ -310,7 +314,7 @@
     padding-bottom: 10px;
   }
   .logoPc {
-    width: 150px;
+    width: 200px;
     margin-top: 15px;
   }
   .footer {
