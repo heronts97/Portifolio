@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
 *{
     box-sizing: border-box;
 }
@@ -15,23 +18,314 @@
     --fonte-destaque: 'Bebas Neue', "cursive"; 
     --font-and: 'android', 'cursive';
 }
-
-body{
-    background: #ffffff;
+main{
+    justify-content: center;
 }
-
-button{
-    border: 0;
-    padding: 0;
-    font-family: inherit;
-    background: transparent;
-    color: inherit;
-    cursor: pointer;
+body{
+    background-color: #161515;
 }
 
 .navbar{
-    background-color: rgb(34, 32, 32);
+    background-color: rgb(0, 0, 0);
+}
+.offcanvas{
+    background-color: rgb(0, 0, 0);
+}
+.navbar-brand {
+    color: var(--cor0);
+    font-family: "Share Tech Mono", monospace;
+    font-size: 1.5rem;
+}
+.navbar-brand:hover{
+    color: white;
+    transition: 0.1s;
+}
+.icon-hts{
+    padding-bottom: 0.2rem;
+}
+.navbar-toggler{
+    background-color: rgb(71, 70, 70);
 }
 .navbar-toggler-icon{
+   background-color:  rgb(71, 70, 70);
+}
+.nav-link{
     color: var(--cor0);
+    font-family: "Share Tech Mono", monospace;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    color: white;
+    transition: 0.1s;
+}
+
+
+/** rede sociais**/
+
+.description{
+    text-align: center;
+    height: 100%;
+    margin-top: 4rem;
+}
+
+.name{ 
+    color: var(--cor0);
+    font-family: "Share Tech Mono", monospace;
+    padding-top: 5rem;
+}
+.mim{
+    font-family: var(--fonte-padrao);
+    color: #969696;
+}
+.rede-sociais01{
+    padding-top: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-family: "Share Tech Mono", monospace;
+
+}
+
+.icone{
+    margin-top: 4rem;
+    justify-items: center;
+}
+
+.link-rede-1{
+    color: #969696;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.link-rede-1:hover{
+   color: rgb(6, 77, 209);
+   transition: 0.5s;
+}
+
+.link-rede-2{
+    color: #969696;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.link-rede-2:hover{
+   color: rgb(100, 13, 199);
+   transition: 0.5s;
+}
+.link-rede-3{
+    color: #969696;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.link-rede-3:hover{
+   color: rgb(6, 184, 59);
+   transition: 0.5s;
+}
+
+
+
+
+/**sobre mim ***/
+.container-sobre-mim{
+    height: 100%;
+    margin-top: 6rem;
+}
+.container-sobre-mim h1{
+   color: #FA1B13;
+}
+.container-sobre-mim p{
+    color: #969696;
+}
+
+.container-sobre-mim p > strong {
+    color: #ffffff;
+}
+
+ 
+
+/**habilidades**/
+
+.habilidades{
+    height: 100%;
+    padding-top: 5rem;
+}
+.habilidades h1{
+    color: #FA1B13;
+    padding-top: 4rem;
+}
+.col{
+    padding-top: 3rem;
+}
+.col img {
+    width: 6rem;
+}
+.col img:hover{
+    opacity: 50%;
+    transition: 1s;
+}
+.card1{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(255, 157, 10);
+}
+.card2{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(16, 100, 255);
+}
+.card3{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 1);
+}
+.card4{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(252, 82, 187);
+}
+.card5{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(155, 6, 255);
+}
+.card6{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(1, 196, 255);
+}
+.card7{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(0, 255, 76);
+}
+.card8{
+    background-color: #161515;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: rgb(191, 32, 240);
+}
+
+
+/**projetos**/
+
+.projetos{
+    height: 100%;
+    padding-top: 7rem;
+    justify-content: center;
+}
+.projetos h1{
+    color: #FA1B13;
+    padding-bottom: 1rem;
+}
+
+.card-1{
+    width: 100%;
+    padding-top: 4rem;
+    
+}
+.card-body{
+    background-color: #494848;
+    color: #ffffff;
+}
+
+.card-body h5{
+    font-family: "Share Tech Mono", monospace;
+}
+
+.card-body p{
+    font-family: var(--fonte-padrao);
+}
+.card-body a{
+    background-color: #494848;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**trabalhos**/
+.footer{
+    background-color: #494848;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 5rem;
+    width: 100%;
+}
+.contatos{
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+}
+
+.contatos h1{
+    color: #FA1B13;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+.cont1:hover{
+    color: rgb(221, 5, 41);
+    transition: 0.5s;
+ }
+.cont1{
+    color: #969696;
+    text-decoration: none;
+    font-size: 3rem;
+}
+.cont2:hover{
+    color: rgb(6, 184, 59);
+    transition: 0.5s;
+ }
+.cont2{
+    color: #969696;
+    text-decoration: none;
+    font-size: 3rem;
+}
+.cont3:hover{
+    color: rgb(142, 12, 230);
+    transition: 0.5s;
+ }
+.cont3{
+    color: #969696;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+
+.footer h1{
+    color: #FA1B13;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.footer-link{
+    margin: 0;
+}
+
+.text-white{
+    margin-top: 2rem;
+}
+.contatos p {
+    color: #ffffff;
+    font-family: var(--fonte-padrao);
 }
