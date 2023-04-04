@@ -93,7 +93,7 @@ main{
 @media (max-width: 600px){
     main{
         margin: 10px;
-        height: 90vh;
+        height: 100%;
         width: auto;
         border-radius: 15px;
         margin: 0px;
