@@ -77,7 +77,7 @@ body{
 }
 .mim{
     font-family: var(--fonte-padrao);
-    color: #969696;
+    color: #c2bebe;
 }
 .rede-sociais01{
     padding-top: 3rem;
@@ -135,13 +135,17 @@ body{
    color: #FA1B13;
 }
 .container-sobre-mim p{
-    color: #969696;
+    color: #c2bebe;
 }
 
 .container-sobre-mim p > strong {
     color: #ffffff;
 }
-
+.container-sobre-mim a {
+    color: #ffffff;
+    font-family: "Share Tech Mono", monospace;
+    text-decoration: none;
+}
  
 
 /**habilidades**/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"  defer> </script>
+</head>
+<body>
+    <main><h1>JOGO DA VELHA</h1>
+        <hr>
+        <div class="menu"> 
+            <label for="Player1"><img class="img" src="image/brasilia.png" alt="brazil">    </label>
+            <input type="text" id="player1" placeholder="Nome do Jogador 1">
+            <label for="Player 2"><img class="img" src="image/franca.png" alt="france">     </label>
+            <input type="text" id="player2" placeholder="Nome do Jogador 2">
+        
+            <button id="start">Começar</button>
+            <h2>Vez de: <span id="turnPlayer"></span></h2>
+        </div>
+       
+    
+    
+        <section id="gameBoard">
+            <span class="cusor-pointer" data-region="0.0"></span>
+            <span class="cusor-pointer" data-region="0.1"></span>
+            <span class="cusor-pointer" data-region="0.2"></span>
+            <span class="cusor-pointer" data-region="1.0"></span>
+            <span class="cusor-pointer" data-region="1.1"></span>
+            <span class="cusor-pointer" data-region="1.2"></span>
+            <span class="cusor-pointer" data-region="2.0"></span>
+            <span class="cusor-pointer" data-region="2.1"></span>
+            <span class="cusor-pointer" data-region="2.2"></span>
+        </section>
+    </main>
+    
+</body>
+</html>
